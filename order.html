@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="Menuitem">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <!-- <li><a href="">About</a></li> -->
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="acc.html">Account</a></li>
+    
+                    </ul>
+                    <a href="cart.html"><img src="images/cart.png" alt="" width="30px" height="30px"></a>
+                    <img src="images/menu.png" alt="" class="menu" onclick="menutoggle()">
+                </nav>
+            </div>
+        </div>
+    <form action="">
+        <table width="100%" class="tb">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" placeholder="Enter Your Name" maxlength="50" size="50" required autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="number" placeholder="Enter number" maxlength="10" pattern="[0-9]{10}" required autocomplete="off"></td>
+        </tr>
+        
+        <tr>
+            <td> Address </td>
+            <td>
+                Village/City
+                <input type="text" name="City" maxlength="25" placeholder="Enter your City Name" required
+                    autocomplete="off"><br>
+                House Number/Name
+                <input type="text" name="Block" maxlength="25" placeholder="Enter your house number/Name"
+                    required autocomplete="off"><br>
+
+
+
+
+
+                
+                Landmark
+                <input type="text" name="dist" maxlength="25" placeholder="Enter your Landmark" required
+                    autocomplete="off"><br>
+                Area
+                <input type="text" name="State" maxlength="25" placeholder="Enter your Area Name" required
+                    autocomplete="off"><br><br>
+
+                Pin Number
+                <input type="number" name="pin" maxlength="6" pattern="[0-9]{6}" placeholder="Enter Your pin"
+                    required autocomplete="off"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="Enter your Email" size="60"></td>
+        </tr>
+        
+        <tr align="center">
+            <td colspan="2">
+                <a href="payment.html" target="_blank"><input type="button" value="Order Now"></a>
+                <input type="reset" value="&#10060;Clear">
+                <a href="index.html"><input type="button" value="Home"></a>
+                
+
+            </td>
+
+        </tr>
+       
+
+        </table>
+    </form>
+    <section class="footer" id="footer_section">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <div class="logo">
+                                <img src="images/logo.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="javascript:;">Offers & Discounts</a></li>
+                                <li><a href="javascript:;">Get Coupon</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>New Products</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="product.html">Woman Cloth</a></li>
+                                <li><a href="product.html">Fashion Accessories</a></li>
+                                <li><a href="product.html">Man Accessories</a></li>
+                                <li><a href="product.html">Rubber made Toys</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Support</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="tetm.html">Frequently Asked Questions</a></li>
+                                <li><a href="tetm.html">Terms & Conditions</a></li>
+                                <li><a href="tetm.html">Privacy Policy</a></li>
+                                <li><a href="tetm.html">Report a Payment Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-3">Copyright ©2020 All rights reserved
+                </h6>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
